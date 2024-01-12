@@ -4,32 +4,35 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: #FAFAF9;
+    box-sizing: border-box;
     font-family: 'Sora', sans-serif;
 }
 body{
-    display: flex;
-    justify-content: center;
+    background-color: #fafaf9;
 }
-
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 .container{
-    width: 400px;
-    border-radius: 20px;
+    max-width: 368px;
+    padding: 16px 16px 20px;
+    border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    background-color: #f9f9f9;
-    margin-top: 100px;
+    background-color: #fff;
 }
 .header-img{
-    background-image: url('../images/Untitled\ design\ \(4\).png');
+    background-image: url('../images/cactus_img.jpg');
     height: 200px;
     background-size: cover;
     background-position: center;
-    margin: 20px;
-    border-radius: 20px;
+    border-radius: 8px;
 }
 .content{
-    padding: 20px;
+    padding: 16px 10px;
 }
 button{
     display: inline-block;
